@@ -1,2 +1,15 @@
-# Voice-Assistant
-This project features Ana, a simple voice assistant script in Python. It uses pyttsx3 for text-to-speech, speech_recognition for voice input processing, and MySQL Connector for database interaction. Ana can greet the user based on the time of day and respond to basic commands like "hello" and "hey."
+# Ana - Voice Assistant
+
+Ana is a simple voice assistant written in Python. It can greet users, recognize basic voice commands, and respond using text-to-speech.
+
+## Features
+- Text-to-speech using `pyttsx3`
+- Speech recognition using `speech_recognition`
+- Time-based greetings
+- Basic voice command handling
+- MySQL database connection
+
+## Requirements
+Install the necessary dependencies using:
+```bash
+pip install pyttsx3 speechrecognition mysql-connector-python
