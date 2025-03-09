@@ -58,16 +58,16 @@ python Ana.py
 1. Run the script
 2. **Speak when prompted** – The assistant listens and processes your command.
 3. Example interactions:
-- You: "Open Google"
-- Bunny: (Opens Google in a web browser)
-- You: "What is Python from Wikipedia?"
-- Bunny: (Gives a brief summary from Wikipedia)
-- You: "Add user"
-- Bunny: "Please say the name"
-- You: "John"
-- Bunny: "Please say the age"
-- You: "25"
-- Bunny: "Added John with age 25 to the database"
+    - You: "Open Google"
+    - Bunny: (Opens Google in a web browser)
+    - You: "What is Python from Wikipedia?"
+    - Bunny: (Gives a brief summary from Wikipedia)
+    - You: "Add user"
+    - Bunny: "Please say the name"
+    - You: "John"
+    - Bunny: "Please say the age"
+    - You: "25"
+    - Bunny: "Added John with age 25 to the database"
 
 ### Requirements
 Install the necessary dependencies using:
