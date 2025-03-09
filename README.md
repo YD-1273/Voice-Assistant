@@ -5,14 +5,14 @@ Ana is a Python-based voice assistant that can recognize speech, perform various
 ---
 
 ## Features  
-✅ **Speech Recognition** – Listens and responds to voice commands.  
-✅ **Wikipedia Search** – Fetches brief Wikipedia summaries.  
-✅ **Web Navigation** – Opens Google, YouTube, Gmail, Stack Overflow.  
-✅ **Music Playback** – Opens Spotify for music streaming.  
-✅ **Time Check** – Tells the current time.  
-✅ **File Management** – Lists and deletes files from a directory.  
-✅ **Database Management** – Stores and retrieves user data in an SQLite database.  
-✅ **System Control** – Can shutdown or restart the system.  
+1. **Speech Recognition** – Listens and responds to voice commands.  
+2. **Wikipedia Search** – Fetches brief Wikipedia summaries.  
+3. **Web Navigation** – Opens Google, YouTube, Gmail, Stack Overflow.  
+4. **Music Playback** – Opens Spotify for music streaming.  
+5. **Time Check** – Tells the current time.  
+6. **File Management** – Lists and deletes files from a directory.  
+7. **Database Management** – Stores and retrieves user data in an SQLite database.  
+8. **System Control** – Can shutdown or restart the system.  
 
 ---
 
@@ -42,15 +42,46 @@ Ana is a Python-based voice assistant that can recognize speech, perform various
 ```bash
 git clone https://github.com/yourusername/bunny-voice-assistant.git
 cd bunny-voice-assistant
+```
 
-## Features
-- Text-to-speech using `pyttsx3`
-- Speech recognition using `speech_recognition`
-- Time-based greetings
-- Basic voice command handling
-- MySQL database connection
+### Install Dependencies  
+```bash
+pip install -r requirements.txt
+```
 
-## Requirements
+### Run the Assistant
+```bash
+python Ana.py
+```
+
+## How to Use
+1. Run the script
+2. **Speak when prompted** – The assistant listens and processes your command.
+Example interactions:
+You: "Open Google"
+
+Bunny: (Opens Google in a web browser)
+
+You: "What is Python from Wikipedia?"
+
+Bunny: (Gives a brief summary from Wikipedia)
+
+You: "Add user"
+
+Bunny: "Please say the name"
+
+You: "John"
+
+Bunny: "Please say the age"
+
+You: "25"
+
+Bunny: "Added John with age 25 to the database"
+
+
+
+### Requirements
 Install the necessary dependencies using:
 ```bash
-pip install pyttsx3 speechrecognition mysql-connector-python
+pip install pyttsx3 speechrecognition wikipedia pyaudio sqlite3
+```
