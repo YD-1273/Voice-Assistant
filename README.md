@@ -40,8 +40,8 @@ Ana is a Python-based voice assistant that can recognize speech, perform various
 
 ### Clone the Repository  
 ```bash
-git clone https://github.com/yourusername/bunny-voice-assistant.git
-cd bunny-voice-assistant
+git clone https://github.com/YKD-1273/Voice-Assistant.git
+cd Voice-Assistant
 ```
 
 ### Install Dependencies  
@@ -59,15 +59,15 @@ python Ana.py
 2. **Speak when prompted** – The assistant listens and processes your command.
 3. Example interactions:
     - You: "Open Google"
-    - Bunny: (Opens Google in a web browser)
+    - Ana: (Opens Google in a web browser)
     - You: "What is Python from Wikipedia?"
-    - Bunny: (Gives a brief summary from Wikipedia)
+    - Ana: (Gives a brief summary from Wikipedia)
     - You: "Add user"
-    - Bunny: "Please say the name"
+    - Ana: "Please say the name"
     - You: "John"
-    - Bunny: "Please say the age"
+    - Ana: "Please say the age"
     - You: "25"
-    - Bunny: "Added John with age 25 to the database"
+    - Ana: "Added John with age 25 to the database"
 
 ### Requirements
 Install the necessary dependencies using:
